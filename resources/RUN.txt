@@ -1,0 +1,41 @@
+
+//using a budget thats greater than the sum of all the elements
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+10000
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 6 ms : 805956 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+
+
+//using budget thats less than sum but has an exact math to our budget amount
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+25
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 6 ms : 557261 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0]
+Done with ShoppingBag.
+
+//using budget thats less than sum and there is no exact match so
+//return the closest subset match
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+5
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 4 ms : 804072 ns
+Purchased grocery prices are:
+[4.0]
+Done with ShoppingBag.
